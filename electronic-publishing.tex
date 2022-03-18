@@ -1,11 +1,12 @@
-\documentclass{article}
 
+\documentclass{article}
+\usepackage[a-1b]{pdfx}
 \usepackage{arxiv}
 
 \usepackage[utf8]{inputenc} % allow utf-8 input
 \usepackage[T1]{fontenc}    % use 8-bit T1 fonts
 \usepackage{lmodern}        % https://github.com/rstudio/rticles/issues/343
-\usepackage{hyperref}       % hyperlinks
+%\usepackage{hyperref}       % hyperlinks
 \usepackage{url}            % simple URL typesetting
 \usepackage{booktabs}       % professional-quality tables
 \usepackage{amsfonts}       % blackboard math symbols
@@ -13,16 +14,14 @@
 \usepackage{microtype}      % microtypography
 \usepackage{graphicx}
 \usepackage[style=british]{csquotes}
-
+\hypersetup{hidelinks}
 \title{\myTitleMainTitle}
 
 \author{
     Dr Paul J. Palmer
     \thanks{Written to fulfil an action of the LES AGM.}
    \\
-    Author and Determination \\
-    Microscope ID Club \\
-  Leicestershire VC55 \\
+    Leicestershire Entomological Society \\
   \texttt{\href{mailto:palmerpjp@gmail.com}{\nolinkurl{palmerpjp@gmail.com}}} 
 } 
 
@@ -143,11 +142,48 @@ These services are free and suitable for publication of authoritative reports fr
 In this example PJP has set up a community to share reports on VC55 spiders. \\
 See: \url{https://zenodo.org/communities/vc55-spiders/} 
 
-\enquote{Report on VC55 Spider Status In The Rutland Water Area} is likely to be updated over time so the DOI \\ \url{https://doi.org/10.5281/zenodo.6048791} \\will always point towards the latest version. However, each version also has its own DOI so \\
+Palmer, Paul J. (2022). Report on VC55 Spider Status In The Rutland Water Area. Zenodo. \url{https://doi.org/10.5281/zenodo.6048792}
+
+This report is likely to be updated over time so the DOI \\ \url{https://doi.org/10.5281/zenodo.6048791} \\will always point towards the latest version. However, each version also has its own DOI so \\
 \url{https://doi.org/10.5281/zenodo.6048792} \\
  will always point towards version 1.
+ 
+ 
+ Note that the report also includes a CSV version of the checklist as an example of how online publication may included mixed resources.
 
 Zenodo accounts are free and only one person need have an account to upload publications. However, using multiple trusted people to manage a community would be wise to ensure continuity of access for all time.
+
+Note that the reference is also easily found using a search engine. Try: \enquote{Report on VC55 Spider Status}.
+
+\section{Producing PDF Documents}
+
+Microsoft Word, although popular, is not really suitable for producing publication ready PDF documents. While many people manage to get reasonable looking results, underneath the surface are many problems with fonts and images.
+
+The tool that stands out for producing high quality PDF documents is Latex. However, there is a steep leaning curve which many will find off-putting.  It has the huge advantage of completely separating the content from output by using style-sheets, enabling the author to concentrate on writing, rather than layout. This report was created in this manner.
+
+Overleaf (see: \url{https://www.overleaf.com/})  provides an excellent service that requires no local software with many useful guides. Multiple people can work on the same document, and as long as you have one person who knows Latex, everyone else can just type content.
+
+\subsection{PDF\textbackslash A}
+
+The PDF\textbackslash A format has been developed for long term preservation  as it embeds all the information required to reproduce the original document, plus supporting metadata. Ensuring full compliance to the PDF\textbackslash standard requires access to external validation tools, but nominal compliance is achieved in Latex by adding the following command to the document head of this report:
+ \begin{verbatim}
+	\usepackage[a-1b]{pdfx}
+\end{verbatim}
+
+The following metadata was also included:
+ \begin{verbatim}
+\Title{Methods of Electronic Publication Suitable for Small Societies}
+\Author{P.J. Palmer}
+\Language{en-GB}
+\Keywords{Electronic publication\sep Small societies}
+\Publisher{Leicestershire Entomological Society}
+\end{verbatim}
+ 
+ \section{Concluding Comments}
+ 
+Electronic publication does not supersede the role of printed media, but it does provide new routes to disseminate knowledge in a way that can be cited in other work. There are no reasons why printed reports with an ISBN should not be assigned a DOI for freely available PDF versions.
+
+Each report produced with a DOI will be available for the foreseeable future, so it is reasonable to expect that more effort is required to ensure long term accessibility of the PDF and associated resources.
 
 
 \bibliographystyle{unsrt}
