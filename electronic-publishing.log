@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2020.3.3)  18 MAR 2022 13:29
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2020.3.3)  21 MAR 2022 19:55
  restricted system commands enabled.
 **electronic-publishing.tex
 (./electronic-publishing.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.067 seconds
+luaotfload | main : initialization completed in 0.059 seconds
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -865,27 +865,27 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 186.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 180.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 186.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 180.
  [2]
 (./electronic-publishing.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (./electronic-publishing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `electronic-publishing.out' has not changed.
-(rerunfilecheck)             Checksum: BDA9491E07272E3B6DCE56C6146CFC70;362.
+(rerunfilecheck)             Checksum: 0B714339A8415FBBA4F26D92606845AC;348.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -894,7 +894,7 @@ Here is how much of LuaTeX's memory you used:
  498 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 3 glue, 3 kern, 1 glyph, 6 attribute, 64 glue_spec,
  6 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:2,2:266,3:153,4:55,5:259,6:35,7:4262,8:70,9:128,10:6,11:281
+   avail lists: 1:2,2:260,3:187,4:42,5:329,6:34,7:4925,8:95,9:118,10:7,11:327
  21389 multiletter control sequences out of 65536+600000
  52 fonts using 3290759 bytes
  117i,16n,107p,947b,1883s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -910,9 +910,9 @@ sr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/public/lm/lmtt10.pfb>
-Output written on electronic-publishing.pdf (3 pages, 203368 bytes).
+Output written on electronic-publishing.pdf (3 pages, 202288 bytes).
 
-PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 131072)
  64 words of extra memory for PDF output out of 10000 (max. 100000000)
 
