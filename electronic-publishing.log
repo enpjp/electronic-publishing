@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2020.3.3)  22 MAR 2022 09:09
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2020.3.3)  22 MAR 2022 09:19
  restricted system commands enabled.
 **electronic-publishing.tex
 (./electronic-publishing.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.058 seconds
+luaotfload | main : initialization completed in 0.067 seconds
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -910,7 +910,7 @@ sr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/public/lm/lmtt10.pfb>
-Output written on electronic-publishing.pdf (3 pages, 202770 bytes).
+Output written on electronic-publishing.pdf (3 pages, 202908 bytes).
 
 PDF statistics: 112 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 131072)
